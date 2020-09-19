@@ -1,2 +1,11 @@
 server:
   port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: api
+          uri: http://172.31.35.57:8081/
+          predicates:
+            - Path=/api/**
