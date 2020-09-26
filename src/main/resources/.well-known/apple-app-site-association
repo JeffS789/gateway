@@ -1,0 +1,26 @@
+{
+  "webcredentials": {
+    "apps": [
+      "7PJ9HGJ7QS.io.artfx.user"
+    ]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "7PJ9HGJ7QS.io.artfx.user",
+        "paths": [
+          "/verify"
+        ],
+        "appIDs": [
+          "7PJ9HGJ7QS.io.artfx.user"
+        ],
+        "components": [
+          {
+            "/": "/verify"
+          }
+        ]
+      }
+    ]
+  }
+}
