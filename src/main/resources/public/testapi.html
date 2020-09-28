@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+  
+    <script>
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "/api/authenticate", true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send(JSON.stringify({
+      "username":"steve@artfx.io",
+      "password":"abc"
+    }));
+    
+    </script>
+    
+  </body>
+</html>
