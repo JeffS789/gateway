@@ -9,3 +9,7 @@ spring:
           uri: http://172.31.35.57:8081/
           predicates:
             - Path=/api/**
+        - id: superadmin
+          uri: http://artfx-superadmin.s3-website.us-east-2.amazonaws.com/
+          predicates:
+            - Path=/**
