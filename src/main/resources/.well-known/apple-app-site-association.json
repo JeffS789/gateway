@@ -10,7 +10,8 @@
       {
         "appID": "7PJ9HGJ7QS.io.artfx.user",
         "paths": [
-          "/verify"
+          "/verify",
+          "/reset"
         ],
         "appIDs": [
           "7PJ9HGJ7QS.io.artfx.user"
@@ -18,6 +19,9 @@
         "components": [
           {
             "/": "/verify"
+          },
+          {
+            "/": "/reset"
           }
         ]
       }
